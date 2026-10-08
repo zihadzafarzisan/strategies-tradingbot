@@ -1,0 +1,94 @@
+{
+  "protocol": "PROTOCOL-STRATEGY-07-V1.0",
+  "authorization_document": "OOS-AUTH-STRATEGY-07-V1.0",
+  "execution_timestamp_utc": "2026-09-12 04:49:40 UTC",
+  "candidate": {
+    "candidate_id": "C31",
+    "body_mult": 1.6,
+    "volume_mult": 1.7,
+    "volume_period": 20,
+    "ema_period": 50,
+    "displacement_lookback": 5,
+    "atr_period": 14,
+    "atr_multiplier": 2.2,
+    "risk_reward_ratio": 2.0,
+    "stop_type": "atr"
+  },
+  "oos_window": {
+    "start": "2026-01-01 00:00:00 UTC",
+    "end": "2026-08-31 23:59:59 UTC",
+    "start_ms": 1767225600000,
+    "end_ms": 1788220799000
+  },
+  "tracks": {
+    "BTCUSDT_1H": {
+      "metrics": {
+        "symbol": "BTCUSDT",
+        "timeframe": "1h",
+        "bars": 5832,
+        "total_trades": 137,
+        "long_trades": 60,
+        "short_trades": 77,
+        "winning_trades": 52,
+        "losing_trades": 85,
+        "win_rate": 0.3796,
+        "profit_factor": 1.0844,
+        "expectancy": 0.3789,
+        "net_pnl": 51.91,
+        "net_return": 0.0519,
+        "max_drawdown": 0.3853,
+        "sharpe": 0.0319,
+        "sortino": 0.0218,
+        "calmar": 0.1347,
+        "gross_profit": 667.09,
+        "gross_loss": 615.18,
+        "fees": 49.21,
+        "slippage": 4968.94,
+        "funding": 23.08,
+        "liquidations": 0,
+        "passed_oos_hard_gates": false,
+        "rejection_reasons": [
+          "Max drawdown exceeded: 38.5% > 35.0%"
+        ],
+        "evidence_class": "ADEQUATE_EVIDENCE"
+      },
+      "trades_count": 137
+    },
+    "ETHUSDT_1H": {
+      "metrics": {
+        "symbol": "ETHUSDT",
+        "timeframe": "1h",
+        "bars": 5832,
+        "total_trades": 137,
+        "long_trades": 78,
+        "short_trades": 59,
+        "winning_trades": 59,
+        "losing_trades": 78,
+        "win_rate": 0.4307,
+        "profit_factor": 1.2231,
+        "expectancy": 1.2177,
+        "net_pnl": 166.83,
+        "net_return": 0.1668,
+        "max_drawdown": 0.3684,
+        "sharpe": 0.0966,
+        "sortino": 0.0612,
+        "calmar": 0.4529,
+        "gross_profit": 914.5,
+        "gross_loss": 747.68,
+        "fees": 49.57,
+        "slippage": 152.01,
+        "funding": 17.32,
+        "liquidations": 0,
+        "passed_oos_hard_gates": false,
+        "rejection_reasons": [
+          "Max drawdown exceeded: 36.8% > 35.0%"
+        ],
+        "evidence_class": "ADEQUATE_EVIDENCE"
+      },
+      "trades_count": 137
+    }
+  },
+  "dual_asset_oos_decision": "DUAL_ASSET_OOS_FAILED",
+  "btc_oos_pass": false,
+  "eth_oos_pass": false
+}
