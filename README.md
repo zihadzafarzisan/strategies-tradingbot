@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Data Repository & Research Archive — Crypto Quant Terminal
 
 This directory (`/data`) serves as the central persistence layer, quantitative research laboratory archive, market data lake, and runtime state repository for the **Crypto Quant Terminal**.
